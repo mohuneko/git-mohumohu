@@ -61,3 +61,55 @@ padding:3px;
 .title{
 margin:15px 0 5px;
 }
+
+@media screen and (max-width:768px){
+main{
+width:100%;
+margin:50px 0;
+}
+
+
+.box1{
+float:none;
+margin:0 auto;
+}
+
+
+.box-image1{
+margin:0 auto;
+height:110px;
+}
+
+.box-image2{
+margin:0 auto;
+height:110px;
+}
+
+.box-image3{
+margin:0 auto;
+height:110px;
+}
+
+.box-text{
+text-align: center;
+}
+
+.title{
+text-align: left;
+}
+
+.box1:nth-child(even){
+margin:20px auto;
+}
+
+.box1:last-child{
+margin-right:auto;
+}
+
+.line{
+margin:0 auto;
+}
+
+.text{
+font-size: 12px;
+}
